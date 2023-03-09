@@ -1,7 +1,10 @@
-package testpackage
+package main
 
-import "fmt"
+import (
+	"github.com/Tonstory03/testpackage/internal"
+)
 
 func main() {
-	fmt.Println("TEST")
+	internal.Test()
+	// fmt.Println(internal.Test())
 }
